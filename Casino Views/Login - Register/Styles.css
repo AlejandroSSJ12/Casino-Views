@@ -1,0 +1,12 @@
+.body-style {
+    /* fallback for old browsers */
+    background: #160E1D;
+}
+
+.form-control::placeholder {
+    color: #A0A0A0; /* Puedes cambiar 'red' por el color que desees */
+  }
+
+.homebuton{
+    background: #230E2F;
+}
