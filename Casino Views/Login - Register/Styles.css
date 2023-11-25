@@ -4,7 +4,8 @@
 }
 
 .form-control::placeholder {
-    color: #A0A0A0; /* Puedes cambiar 'red' por el color que desees */
+    color: #505050; /* Puedes cambiar 'red' por el color que desees */
+    font-size: 15px;
   }
 
 .homebuton{
