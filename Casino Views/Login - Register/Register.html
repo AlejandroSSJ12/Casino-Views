@@ -58,7 +58,19 @@
                     <label class="form-label">Teléfono:</label>
                 </div>
                 <div class="form-outline form-white mb-4 col-md-7">
-                    <input type="number" class="form-control form-control-lg border border-0" style="background-color: #160E1D; color: white;" placeholder="Teléfono"/>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <select class="form-control" id="codigoPais">
+                                <option value="+1">🇺🇸 Estados Unidos (+1)</option>
+                                <option value="+44">🇬🇧 Reino Unido (+44)</option>
+                                <option value="+33">🇫🇷 Francia (+33)</option>
+                                <!-- Agrega más opciones según sea necesario -->
+                            </select>
+                        </div>
+                        <div class="col-md-9">
+                            <input type="number" class="form-control form-control-lg border border-0" style="background-color: #160E1D; color: white;" placeholder="Teléfono"/>
+                        </div>
+                    </div>
                 </div>
                 <button class="btn btn-warning btn-lg px-5 col-12 fw-bold" type="submit">Continuar</button>
                 <div>
