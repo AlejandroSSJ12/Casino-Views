@@ -3,11 +3,26 @@
     background: #160E1D;
 }
 
+.form-control{
+    background-color: #160E1D; 
+    color: white;
+    border-color: #160E1D;
+}
+
 .form-control::placeholder {
     color: #505050; /* Puedes cambiar 'red' por el color que desees */
     font-size: 15px;
-  }
+}
 
 .homebuton{
     background: #230E2F;
+}
+
+.homebuton:hover{
+    border-color: #ffd200;
+}
+
+.form-control:focus{
+    background-color: #160E1D; 
+    border-color: #ffd200;
 }
